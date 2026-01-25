@@ -1,0 +1,109 @@
+* {
+	text-align: center;
+
+	/*CSS Reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: "Roboto", monospace;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #E1F0F5;
+}
+
+nav {
+	padding: 25px;
+	margin: 0 0 10px 0;
+	background-color: #61B3CF;
+}
+
+.nav-link {
+	margin: 0 20px 0 20px;
+	color: white;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+#landing {
+	text-align: center;
+}
+
+#profile {
+	height: 325px;
+	width: 325px;
+	margin: 20px 0 15px 0;
+	border-radius: 162.5px;
+	border: 3px solid #88C7DC;
+}
+
+#name {
+	margin: 5px 0 25px 0;
+}
+
+#title 	{
+	margin: 20px 0 15px 0;
+}
+
+#intro {
+	width: 400px;
+	margin: auto;
+}
+
+#tools {
+	text-align: center;
+	margin: 60px 0 60px 0;
+}
+
+#tools-title {
+	margin: 0 0 30px 0;
+}
+
+.tools-img {
+	height: 140px;
+	width: 140px;
+	margin: 0 10px 0 10px;
+	padding: 15px;
+	border: 3px solid #88C7DC;
+	border-radius: 10px;
+}
+
+
+#projects {
+	text-align: center;
+}
+
+.card {
+	background-color: #88C7DC;
+	height: 400px;
+	width: 600px;
+	margin: 25px auto 30px auto;
+	border-radius: 50px;
+}
+
+.card-img{
+	height: 300px;
+	width: 450px;
+}
+
+h4{
+	padding: 15px;
+}
+
+#contact{
+	text-align: center;
+	padding: 20px;
+	margin: 40px 0 0 0;
+	background-color: #61B3CF;
+}
+
+.contact-link {
+	margin: 0 10px 0 10px;
+	color: white;
+	font-weight: bold;
+}

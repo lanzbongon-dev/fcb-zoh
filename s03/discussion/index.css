@@ -1,0 +1,133 @@
+/*
+CSS Rules
+
+selector {
+	property: value;
+	property: value;
+
+}
+*/
+
+/*CSS Specificity - */
+
+/*
+Universal Selector
+	Applies to all elements in the page
+*/
+* {
+	font-family: "Courier New", monospace; /*fallback font*/
+
+	/*
+	CSS Reset
+		To remove the default values of the box elements spacing values
+	*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+Type Selector
+	Applies to all elements with the target tag name in the selector
+*/
+h1	{
+	font-family: "Tahoma", sans-serif;
+}
+
+/*
+Class Selector
+	To use a class selector, we add a period before the name of the target class.
+	.className {}
+
+	The default font size of a page is 16px.
+*/
+.nav-link {
+	font-size: 18px;
+}
+
+.title {
+	/*color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#modules {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader {
+	margin-top: 30px;
+}
+
+.module-card {
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.module-image {
+	height: 200px;
+	width: 200px;
+}
+
+/*
+	Without border-box
+	Border and padding is added on top of the width/height
+	1px left border + 50px left padding + 150 px width + 50 px right padding + 1px right border = 252 px
+
+	With border-box
+	Border and padding is included in the total width/height
+	1px left border + 50px left padding + 150 px width + 50 px right padding + 1px right border = 150 px
+*/	
+
+/*
+ID Selector
+	To use an ID selector, add a hash or pound sign before the name of the target class.
+	#idName {}
+*/
+#hello {
+	color: black;
+	font-size: 2rem;
+	/*rem - measurement called the root element( or the default value of the element)*/
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	/*padding is a property that allows us to add a space within an element*/
+	padding: 15px;
+}
+
+section {
+	text-align: center;
+}
+
+body {
+	background-color: skyblue;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
